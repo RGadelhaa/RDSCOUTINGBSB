@@ -441,11 +441,10 @@ function selectOptionPosition(position) {
     }
 }
 function validateScouter(input2) {
-
   input2.value = input2.value.replace(/[^A-Za-z]/g, '');
 }
-function limparTexto(input9) {
-  input9.value = input9.value.replace(/[^A-Za-z0-9]/g, '');
+function validateFalhas(input3) {
+  input3.value = input3.value.replace(/[^A-Za-z0-9]/g, '');
 }
    document.getElementById("Team").addEventListener("blur", function() {
     let input = this;
